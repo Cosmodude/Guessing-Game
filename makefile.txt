@@ -1,0 +1,5 @@
+readme:
+	touch README.md
+	echo "Name: The Guessing Game Project" >> README.md
+	echo "Date: $$(LANG=en_us_88591; date)" >> README.md
+	echo "Number of lines: $$(wc -l < guessinggame.sh)" >> README.md
